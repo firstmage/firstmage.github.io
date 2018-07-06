@@ -7,33 +7,33 @@ www.harrisblondman.nl
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 
-/* ! Reset, after Eric Meyer, http://meyerweb.com/eric/tools/css/reset/ *//* 
+/* ! Reset, after Eric Meyer, http://meyerweb.com/eric/tools/css/reset/ *//*
 ================================ */
 
 /* Layout & design
 -------------------------------- */
 /* input, textarea, select, optgroup, option, button,  */
-html, body, 
-div, p, 
-h1, h2, h3, h4, h5, h6, 
-object, 
-dl, dt, dd, 
-ol, ul, li, 
-table, thead, tbody, tfoot, tr, th, td, caption, 
-pre, blockquote, address, 
-iframe, applet, 
-form, 
-label, fieldset, legend, 
-span, img, 
-svg, 
-a, 
-big, small, strong, em, tt, sup, sub, b, u, i, center, 
-abbr, acronym, dfn, 
-del, ins, q, cite, s, strike, 
-code, var, samp, kbd, 
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary, 
+html, body,
+div, p,
+h1, h2, h3, h4, h5, h6,
+object,
+dl, dt, dd,
+ol, ul, li,
+table, thead, tbody, tfoot, tr, th, td, caption,
+pre, blockquote, address,
+iframe, applet,
+form,
+label, fieldset, legend,
+span, img,
+svg,
+a,
+big, small, strong, em, tt, sup, sub, b, u, i, center,
+abbr, acronym, dfn,
+del, ins, q, cite, s, strike,
+code, var, samp, kbd,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	/* #note -> Style outline for accessibility */
 	margin: 0;
@@ -41,16 +41,16 @@ time, mark, audio, video {
 	border: 0;
 	outline: 0;
 	vertical-align: baseline;
-	font-family: inherit;
+	font-family: auto;
 	font-variant: normal;
 	font-size: 100%;
-	font-style: inherit;
-	font-weight: inherit;
-	font: inherit;
+	font-style: auto
+	font-weight: auto;
+	font: auto;
 	background-color: transparent;
 }
-body, 
-h1, h2, h3, h4, h5, h6, 
+body,
+h1, h2, h3, h4, h5, h6,
 big, small, strong, em, tt, sup, sub, b, u, i, center {
 	/* #note -> For browsers that don't support inheritance */
 	font-weight: normal;
@@ -63,16 +63,16 @@ th, td, caption {
 
 /* Layout
 -------------------------------- */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	/* #note -> HTML 5 for older browsers */
 	display: block;
 }
-object, 
-img, 
-video, 
-svg, 
-iframe, 
+object,
+img,
+video,
+svg,
+iframe,
 textarea {
 	/* #note -> Remove extra space that appears underneath when certain elements are nested in div */
  	display: block;
@@ -97,12 +97,12 @@ ul, ol {
 	list-style-type: none;
 	list-style-position: outside;
 }
-blockquote, 
+blockquote,
 q, cite {
 	quotes: none;
 }
-blockquote:before, blockquote:after, 
-q:before, q:after, 
+blockquote:before, blockquote:after,
+q:before, q:after,
 cite:before, cite:after {
 	content: '';
 }
@@ -113,7 +113,7 @@ del, ins, s, strike {
 
 /* User interface
 -------------------------------- */
-:active, 
+:active,
 :focus {
 	/* #note -> Style focus for accessibility */
 	outline: 0;
