@@ -3,7 +3,7 @@
 /*CSS变量定义, root必须始终置于第一位*/
 :root {
     /*文字样式*/
-    --font-family-base: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    --font-family-base: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; 
     --line-height-base: 1.2;
     --letter-spacing-base: 0.04rem;
     --font-light: 300;
